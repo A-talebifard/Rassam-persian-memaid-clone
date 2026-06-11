@@ -1,7 +1,7 @@
 # رسام
 ## Demo
 
-<img src="Demo/Demo.gif" width="600" alt="Rassam Demo - a-talebifard"/>
+<img src="Demo/Demo.gif" alt="Rassam Demo - a-talebifard"/>
 ویرایشگر نمودارهای علمی با قدرت [Mermaid](https://mermaid.js.org/). ساخت، استایل‌دهی و خروجی فلوچارت، نمودار توالی، نمودار کلاس، گانت و بیش از ۲۰ نوع نمودار دیگر -- کاملا آفلاین، در مرورگر یا به عنوان اپلیکیشن دسکتاپ مستقل.
 
 ## دانلود
