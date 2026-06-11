@@ -1,16 +1,19 @@
 # رسام
+
 ## Demo
 
 <img src="Demo/Demo.gif" alt="Rassam Demo - a-talebifard"/>
+
+
 ویرایشگر نمودارهای علمی با قدرت [Mermaid](https://mermaid.js.org/). ساخت، استایل‌دهی و خروجی فلوچارت، نمودار توالی، نمودار کلاس، گانت و بیش از ۲۰ نوع نمودار دیگر -- کاملا آفلاین، در مرورگر یا به عنوان اپلیکیشن دسکتاپ مستقل.
 
 ## دانلود
 
-برای دانلود به [صفحه Releases](https://github.com/A-talebifard/Rassam/releases) مراجعه کنید.
+برای دانلود به [صفحه Releases](https://github.com/A-talebifard/Rassam-persian-memaid-clone/releases) مراجعه کنید.
 
-| پلتفرم | فایل | حجم |
-|---|---|---|
-| Windows x64 | `Rassam_x.x.x_x64-setup.exe` | حدود ۱۰ مگابایت |
+| پلتفرم      | فایل                         | حجم             |
+| ----------- | ---------------------------- | --------------- |
+| Windows x64 | `Rassam_1.0.0_x64-setup.exe` | حدود ۱۰ مگابایت |
 
 نصب‌کننده با NSIS ساخته شده. فقط آن را اجرا کنید و مراحل نصب را دنبال کنید.
 
@@ -31,15 +34,15 @@
 
 ## تکنولوژی‌ها
 
-| فناوری | ابزار |
-|---|---|
-| فریمورک | Next.js 16 (App Router, static export) |
-| زبان | TypeScript 5 |
-| استایل | Tailwind CSS 4 + shadcn/ui |
-| نمودارها | Mermaid v11 |
-| خروجی PDF | jsPDF |
-| دسکتاپ | Tauri v2 |
-| وضعیت | React hooks + localStorage |
+| فناوری    | ابزار                                  |
+| --------- | -------------------------------------- |
+| فریمورک   | Next.js 16 (App Router, static export) |
+| زبان      | TypeScript 5                           |
+| استایل    | Tailwind CSS 4 + shadcn/ui             |
+| نمودارها  | Mermaid v11                            |
+| خروجی PDF | jsPDF                                  |
+| دسکتاپ    | Tauri v2                               |
+| وضعیت     | React hooks + localStorage             |
 
 ## شروع کار (توسعه)
 
@@ -78,6 +81,7 @@ npm run tauri:build
 ```
 
 این دستور:
+
 1. خروجی استاتیک Next.js را در `out/` می‌سازد
 2. اسکریپت postbuild را برای کپی فایل‌های عمومی اجرا می‌کند
 3. اپلیکیشن دسکتاپ Tauri را کامپایل می‌کند
@@ -86,7 +90,7 @@ npm run tauri:build
 بعد از بیلد، فایل نصبی در مسیر زیر قرار دارد:
 
 ```
-release/Rassam_x.x.x_x64-setup.exe
+release/Rassam_1.0.0_x64-setup.exe
 ```
 
 این فایل را در GitHub Release آپلود کنید.
@@ -117,12 +121,12 @@ rassam/
 
 تمام ترجیحات کاربر در localStorage ذخیره می‌شود:
 
-| کلید | توضیحات |
-|---|---|
-| `rassam-projects` | پروژه‌های ذخیره شده |
-| `rassam-templates` | قالب‌های سفارشی |
-| `rassam-dark-mode` | حالت شب/روز |
-| `mermaid-custom-fonts` | فونت‌های سفارشی |
+| کلید                   | توضیحات             |
+| ---------------------- | ------------------- |
+| `rassam-projects`      | پروژه‌های ذخیره شده |
+| `rassam-templates`     | قالب‌های سفارشی     |
+| `rassam-dark-mode`     | حالت شب/روز         |
+| `mermaid-custom-fonts` | فونت‌های سفارشی     |
 
 ## مجوز
 
@@ -144,9 +148,9 @@ A scientific diagram editor powered by [Mermaid](https://mermaid.js.org/). Creat
 
 Go to the [Releases page](https://github.com/A-talebifard/Rassam/releases) and download the latest version.
 
-| Platform | File | Size |
-|---|---|---|
-| Windows x64 | `Rassam_x.x.x_x64-setup.exe` | ~10 MB |
+| Platform    | File                         | Size   |
+| ----------- | ---------------------------- | ------ |
+| Windows x64 | `Rassam_1.0.0_x64-setup.exe` | ~10 MB |
 
 The installer is built with NSIS. Just run it and follow the setup wizard.
 
@@ -167,15 +171,15 @@ The installer is built with NSIS. Just run it and follow the setup wizard.
 
 ## Tech Stack
 
-| Technology | Tool |
-|---|---|
-| Framework | Next.js 16 (App Router, static export) |
-| Language | TypeScript 5 |
-| Styling | Tailwind CSS 4 + shadcn/ui |
-| Diagrams | Mermaid v11 |
-| PDF Export | jsPDF |
-| Desktop | Tauri v2 |
-| State | React hooks + localStorage |
+| Technology | Tool                                   |
+| ---------- | -------------------------------------- |
+| Framework  | Next.js 16 (App Router, static export) |
+| Language   | TypeScript 5                           |
+| Styling    | Tailwind CSS 4 + shadcn/ui             |
+| Diagrams   | Mermaid v11                            |
+| PDF Export | jsPDF                                  |
+| Desktop    | Tauri v2                               |
+| State      | React hooks + localStorage             |
 
 ## Getting Started (Development)
 
@@ -214,6 +218,7 @@ npm run tauri:build
 ```
 
 This command:
+
 1. Builds the Next.js static export to `out/`
 2. Runs the postbuild script to copy public assets
 3. Compiles the Tauri desktop app
@@ -222,7 +227,7 @@ This command:
 After the build, the installer will be at:
 
 ```
-release/Rassam_x.x.x_x64-setup.exe
+release/Rassam_1.0.0_x64-setup.exe
 ```
 
 Upload this file to your GitHub Release.
@@ -253,12 +258,12 @@ rassam/
 
 All user preferences are stored in localStorage:
 
-| Key | Description |
-|---|---|
-| `rassam-projects` | Saved projects |
-| `rassam-templates` | Custom templates |
-| `rassam-dark-mode` | Dark/light mode preference |
-| `mermaid-custom-fonts` | Custom uploaded fonts |
+| Key                    | Description                |
+| ---------------------- | -------------------------- |
+| `rassam-projects`      | Saved projects             |
+| `rassam-templates`     | Custom templates           |
+| `rassam-dark-mode`     | Dark/light mode preference |
+| `mermaid-custom-fonts` | Custom uploaded fonts      |
 
 ## License
 
