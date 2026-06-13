@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "Rassam",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "identifier": "com.rassam.app",
   "build": {
     "frontendDist": "../out",
@@ -42,6 +42,14 @@
         "type": "downloadBootstrapper",
         "silent": true
       }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/A-talebifard/Rassam-persian-memaid-clone/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEU3NjA4RUNDNzZCMjA2RApSV1J0SUd2SDdBaDJEams3d3NjQTZwSldpLzZWbFBBUnRidXAxMXAzWkJIVndCS3RtMkhTYy9YYgo="
     }
   }
 }
