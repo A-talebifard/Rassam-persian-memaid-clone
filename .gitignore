@@ -48,4 +48,6 @@ server.log
 
 # tauri
 src-tauri/target
-~\.tauri\myapp.key
+~/.tauri/myapp.key
+myapp.key.pub
+myapp.key

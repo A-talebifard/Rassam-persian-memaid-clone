@@ -43,7 +43,7 @@ const latestJson = {
   },
 };
 
-const outputPath = path.join(__dirname, 'latest.json');
+const outputPath = path.join(__dirname, 'release/latest.json');
 fs.writeFileSync(outputPath, JSON.stringify(latestJson, null, 2));
 
 console.log(`فایل latest.json تولید شد: ${outputPath}`);
